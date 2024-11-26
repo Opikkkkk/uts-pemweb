@@ -1,0 +1,84 @@
+/* custom.css */
+
+/* Mengatur header */
+.header {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px;
+}
+
+/* Gaya untuk pesan sukses dan pesan error */
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+/* Area Kontainer Login */
+.login-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Putih transparan */
+    padding: 40px;
+    border-radius: 8px;
+}
+
+/* Judul */
+.login-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 60px;
+    width: 250px;
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.sidebar a {
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar a.active {
+    background-color: #007bff;
+}
+
+.sidebar a:hover {
+    background-color: #495057;
+}
+
+/* Logout Button Styling */
+.logout-btn {
+    background-color: #dc3545;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.logout-btn:hover {
+    background-color: #c82333;
+}
+
+/* Content Styling */
+.content {
+    margin-left: 260px;
+    padding: 20px;
+}
+
